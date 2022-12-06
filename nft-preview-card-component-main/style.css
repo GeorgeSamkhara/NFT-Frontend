@@ -1,0 +1,331 @@
+.attribution { 
+  font-size: 8px; text-align: center;
+}
+.attribution a { 
+  color: hsl(215, 51%, 70%);
+  text-decoration: none;
+  font-weight: 800;
+}
+* {
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+  color:hsl(215, 51%, 70%);
+  text-decoration: none;
+  font-weight: 300;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    margin: 17% auto;
+    border-radius: 10px;
+    box-shadow: 1px 17px 0px 10px rgba(11,21,35,0.45);
+    -webkit-box-shadow: 1px 17px 0px 10px rgba(11,21,35,0.45);
+    -moz-box-shadow: 1px 17px 0px 10px rgba(11,21,35,0.45);
+  }
+  
+  #parent{
+    position: relative
+  }
+
+  .nft--div{
+    position: relative;
+  }
+  .nft {
+    display: inline-block;
+    margin: 7% 6% 0% 6%;
+    width: 260px;
+    height: 265px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+
+  .review {
+    position: absolute;
+    top: 110px;         
+    left: 105px;
+    opacity: 100%;
+  }
+
+  .review--div{
+    position: absolute;
+    width: 260px;
+    height: 265px;
+    top: 22px;         
+    left: 18px;
+    border-radius: 10px;
+    background-color: hsla(180, 100%, 50%, 0.417);
+    opacity: 0%;
+    transition: 1s;
+  }
+
+  .review--div:hover{
+    opacity: 1;
+  }
+
+ h1 {
+    margin: 10px 0 0 0;
+  }
+
+  .header {
+    color: white;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-top: 3%;
+    padding-left: 6%;
+    font-weight: 400;
+  }
+  
+  .text p {
+    margin: 0;
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding-top: 4.1%;
+    padding-left: 6%;
+    font-weight: 300;
+    line-height: 170%;
+  }
+  
+  .price_days {
+    display: flex;
+    margin: 5% 6% 0% 6%;
+  }
+    
+  
+  #eth {
+    vertical-align:middle;
+    display: inline;
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 6%;
+    height: 6%;
+  }
+  
+  #num {
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 2px;
+    color: hsl(178, 100%, 50%);
+    margin-right: 95px;
+  }
+  
+  #clock {
+    vertical-align:middle;
+    display: inline;
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 8%;
+    height: 8%;
+  }
+  
+  #three {
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 2px;
+    color: hsl(215, 51%, 70%);
+    margin: 0 0 0 0;
+  }
+  
+  hr {
+    margin-top: 15px;
+    width: 260px;
+    border: 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+  }
+  
+  .profile {
+    display: flex;
+    width: 260px;
+    height: 40px;
+  }
+  
+  .creator {
+    margin: 5px 10px 0 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  
+  .text {
+    margin-top: 11px;
+    color:white;
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(215, 51%, 70%)
+  }
+
+  .pf {
+    text-decoration: none;
+    color: white;
+    padding-left: 3px;
+  }
+}
+/* >=1000 */
+@media screen and (min-width:1000px) {
+  .container {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 520px;
+    margin: 10% auto;
+    border-radius: 10px;
+    box-shadow: 1px 17px 0px 10px rgba(11,21,35,0.45);
+    -webkit-box-shadow: 1px 17px 0px 10px rgba(11,21,35,0.45);
+    -moz-box-shadow: 1px 17px 0px 10px rgba(11,21,35,0.45);
+  }
+  
+  #parent{
+    position: relative
+  }
+
+  .nft--div{
+    position: relative;
+  }
+  .nft {
+    display: inline-block;
+    margin: 7% 6% 0% 6%;
+    width: 260px;
+    height: 265px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+
+  .review {
+    position: absolute;
+    top: 110px;         
+    left: 105px;
+    opacity: 100%;
+  }
+
+  .review--div{
+    position: absolute;
+    width: 260px;
+    height: 265px;
+    top: 22px;         
+    left: 18px;
+    border-radius: 10px;
+    background-color: hsla(180, 100%, 50%, 0.417);
+    opacity: 0%;
+    transition: 1s;
+  }
+
+  .review--div:hover{
+    opacity: 1;
+  }
+
+  .header {
+    margin: 0;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-top: 7%;
+    padding-left: 6%;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  
+  .text p {
+    margin: 0;
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding-top: 4.1%;
+    padding-left: 6%;
+    font-weight: 300;
+    line-height: 170%;
+  }
+  
+  .price_days {
+    display: flex;
+    margin: 5% 6% 0% 6%;
+  }
+    
+  
+  #eth {
+    vertical-align:middle;
+    display: inline;
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 6%;
+    height: 6%;
+  }
+  
+  #num {
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 2px;
+    color: hsl(178, 100%, 50%);
+    margin-right: 95px;
+  }
+  
+  #clock {
+    vertical-align:middle;
+    display: inline;
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 8%;
+    height: 8%;
+  }
+  
+  #three {
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 2px;
+    color: hsl(215, 51%, 70%);
+    margin: 0 0 0 0;
+  }
+  
+  hr {
+    margin-top: 15px;
+    width: 260px;
+    border: 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+  }
+  
+  .profile {
+    display: flex;
+    width: 260px;
+    height: 40px;
+  }
+  
+  .creator {
+    margin: 5px 10px 0 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  
+  .text {
+    margin-top: 11px;
+    color:white;
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(215, 51%, 70%)
+  }
+
+  .pf {
+    text-decoration: none;
+    color: white;
+    padding-left: 3px;
+  }
+}
+/* 1000=< */

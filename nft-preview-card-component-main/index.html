@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+<body>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/GeorgeSamkhara">Giorgi Samkharadze</a>.
+  </div>
+
+  <section>
+    <div class="container">
+      <!-- IMAGE -->
+      <div id="parent">
+        <div class="nft--div"><img src="images/image-equilibrium.jpg" alt="nft" class="nft"></div> 
+        <div class="review--div"><img src="images/icon-view.svg" class="review"></div>
+      </div>
+
+      <!-- HEADER AND PARAGRAPH -->
+      <div class="text">
+        <h1><a href="#" target="_blank" class="header">Equilibrium #3429</a></h1>
+        <p>
+          Our Equilibrium collection promotes <br>
+          balance and calm.
+        </p>
+      </div>
+
+      <!-- PRICE AND DAYS LEFT -->
+      <div class="price_days">
+
+        <img src="images/icon-ethereum.svg" id="eth"> 
+        <span id="num">0.041 ETH</span> 
+        <!--price-->
+        
+        <img src="images/icon-clock.svg" id="clock">
+        <p id="three"> 3 days left</p>
+        <!--days-->
+      </div> <!--price_days-->
+      <hr>
+      <!-- Creator -->
+      <div class="profile">
+        <img src="images/image-avatar.png" class="creator">
+        <span class="text">Creation of<a href="#" class="pf" target="_blank">Jules Wyvern</a></span>
+      </div>
+    </div><!--Container's Div-->
+  </section>
+</body>
+</html>      
